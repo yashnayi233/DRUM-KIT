@@ -1,0 +1,96 @@
+* {
+    font-family: "REM", sans-serif;
+}
+
+body {
+    text-align: center !important;
+    background-color: thistle;
+}
+
+.container {
+    display: grid;
+    max-width: 160vh;
+    margin: 0 auto !important;
+}
+
+/* Header */
+h1 {
+    color: rgba(142, 36, 122, 0.618);
+    font-family: "DM Serif Display", serif;
+    margin: auto;
+    transition: 0.50s;
+    margin-top: 3rem !important;
+    margin-bottom: 1rem !important;
+}
+
+h1:hover {
+    color: rgb(207, 0, 107);
+}
+
+h2,
+span {
+    color: #000000b2;
+}
+
+
+/* Drum Icon */
+.fa-drum {
+    transform: scale3d(1.0);
+    margin: 0 0.5rem;
+}
+
+/* Drumkit Section */
+#Drumkit {
+    text-align: center;
+    color: gray;
+    margin: 1rem auto;
+}
+
+/* Subheading */
+h2 {
+    margin: auto;
+}
+
+/* Icons */
+i {
+    font-weight: bold;
+}
+
+/* Links */
+a,
+a:visited {
+    color: plum;
+}
+
+/* Drum Elements */
+.element {
+    display: inline-grid;
+    place-content: center;
+    border-radius: 0.5rem;
+    height: 10vmax;
+    width: 10vmax;
+    cursor: pointer;
+    margin: 1.5vmax;
+    padding: 1.5vmax 2.5vmax;
+    transition: 0.25s;
+    box-shadow: 15px 15px 25px #e0e0e0, -15px -15px 25px whitesmoke;
+}
+
+.element:hover {
+    /* transform: scale(1.1); */
+    box-shadow: 10px 10px 10px #bfa3a3, -10px -10px 20px thistle;
+}
+
+/* Active Drum Key */
+.active {
+    background-color: orange;
+    transition: 0.15s;
+    transform: scale(1.0);
+}
+
+/* About Section */
+.about {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #000000b6;
+}
